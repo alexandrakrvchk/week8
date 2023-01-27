@@ -1,0 +1,87 @@
+.page__wrap {
+    margin: 3% 5%;
+}
+
+.page__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__title {
+    margin-top: 5%;
+    padding-left: 3%;
+    font-size: 400%;
+    
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 26em;
+    height: 27em;
+    padding-top: 2%;
+}
+
+.block__img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.block__border {
+    border: 1px solid #BB2247;
+}
+
+.block__title {
+    padding-left: 7%;
+}
+
+.block__text {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.block__size {
+    width: 26em;
+    height: 10em;
+}
+
+.block-subscribe {
+    background-color: #EC615B;
+    color: white;
+}
+
+.block-subscribe__email {
+    display: flex;
+    width: 100%;
+    height: 50%
+}
+
+.block-wrap {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.block-subscribe__button {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5%;
+}
+
+.footer__item {
+    margin-left: 3%;
+    color: gray;
+}
+
