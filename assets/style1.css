@@ -7,22 +7,32 @@
     justify-content: space-between;
 }
 
+.header__button {
+    border: none;
+    background-color: #511cd1;
+    color: white;
+    font-family: intro;
+    border-radius: 20px;
+    padding: 1% 2%;
+}
+
 .page__title {
     margin-top: 5%;
     padding-left: 3%;
     font-size: 400%;
-    
+    font-family: intro;
 }
 
 .content-block {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .block {
     width: 26em;
     height: 27em;
-    padding-top: 2%;
+    padding-top: 3%;
 }
 
 .block__img {
@@ -38,41 +48,61 @@
 
 .block__title {
     padding-left: 7%;
+    font-family: intro;
+    
 }
 
 .block__text {
     padding-left: 7%;
     padding-right: 7%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 }
 
 .block__size {
     width: 26em;
-    height: 10em;
+    height: 13em;
+    padding-top: 3%;
+}
+
+.block__size__middle {
+    margin-left: -5%;
 }
 
 .block-subscribe {
     background-color: #EC615B;
     color: white;
+    width: 23em;
+    margin-left: -5%;
 }
 
 .block-subscribe__email {
     display: flex;
     width: 100%;
-    height: 50%
+    padding: 4% 0% 4% 2%;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    margin-top: -3%;
 }
 
 .block-wrap {
     padding-left: 7%;
     padding-right: 7%;
+    
 }
 
 .block-subscribe__button {
     border: none;
-    background-color: blue;
+    background-color: #511cd1;
     color: white;
     border-radius: 20px;
     padding: 3%;
+    font-family: intro;
+    margin-top: -3%;
+    
 }
+
 
 .footer__content {
     display: flex;
@@ -84,4 +114,20 @@
     margin-left: 3%;
     color: gray;
 }
+
+.footer__item :hover {
+    color: rgb(70, 70, 70)
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+@font-face {
+    font-family: intro;
+    src: url(./IntroDemo-BlackCAPS.otf);
+}
+
+
 
